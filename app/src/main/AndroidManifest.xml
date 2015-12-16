@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.silogood.s_permissions">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+
+        >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Permissions" />
+        <activity android:name=".Applications_SYSTEM" />
+        <activity android:name=".Applications_Permissions" />
+        <activity android:name=".Permissions_in" />
+        <activity android:name=".Permissions_in2" />
+        <activity android:name=".Applications" />
+        <activity android:name=".HorizontalBarChartActivity" />
+
+        <activity android:name=".Applications_NO_SYSTEM" />
+        <activity android:name=".PieChartActivity" />
+        <activity
+            android:name=".Permissions_5"
+            android:label="@string/title_activity_permissions_5"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+    </application>
+
+</manifest>
